@@ -124,9 +124,9 @@ namespace HorribleExcuseGenerator
             int excusesCount = 1;
             while(excusesCount < 100)
             {
-                string ThingToGetOutOf = ThingsToGetOutOf[rnd.Next(0, ThingsToGetOutOf.Count - 1)];
-                string ThingToBlame = ThingsToBlame[rnd.Next(0, ThingsToBlame.Count - 1)];
-                string ExcuseRoot = ExcusesRoot[rnd.Next(0, ExcusesRoot.Count - 1)];
+                string ThingToGetOutOf = ThingsToGetOutOf[rnd.Next(0, ThingsToGetOutOf.Count];
+                string ThingToBlame = ThingsToBlame[rnd.Next(0, ThingsToBlame.Count)];
+                string ExcuseRoot = ExcusesRoot[rnd.Next(0, ExcusesRoot.Count)];
 
                 Console.WriteLine("I can't {0} because {1} {2}", ThingToGetOutOf, ThingToBlame, ExcuseRoot);
                 excusesCount++;
